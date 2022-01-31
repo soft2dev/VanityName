@@ -1,0 +1,28 @@
+{
+  "name": "token-swap",
+  "private": true,
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network rinkeby"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.8",
+    "dotenv": "^10.0.0",
+    "hardhat-gas-reporter": "^1.0.6",
+    "identicon.js": "^2.3.3",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "@openzeppelin/contracts": "^4.4.0",
+    "@openzeppelin/contracts-upgradeable": "^4.4.0",
+    "@openzeppelin/hardhat-upgrades": "^1.12.0",
+    "chai": "^4.2.0",
+    "eslint": "7",
+    "eslint-config-next": "12.0.4",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.7.0"
+  }
+}
