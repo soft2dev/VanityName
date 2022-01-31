@@ -9,7 +9,6 @@ COINMARKETCAP_API_KEY=123abc123abc123abc123abc123abc123abc
 ```
 ```
 yarn
-yarn start
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 ## Smart contract
